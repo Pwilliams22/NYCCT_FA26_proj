@@ -14,17 +14,9 @@ public class GameManager : MonoBehaviour
     public float timer = 0;
     public GameObject coin;
 
-
-    public List<GameObject> allCoins;
-
     public string startText = "Hello World";
     // Start is called once before the first execution of Update after this script gets loaded into your game scene
-    
-
-    void Awake()
-    {
-        gameManager = this;
-    }
+   
     
     
     void Start()
